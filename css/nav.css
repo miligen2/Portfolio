@@ -1,0 +1,54 @@
+/* nav */
+header{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 300px;
+    color: white;
+    font-family:var(--fontfam);
+}
+
+.contain_nav{
+    display:flex;
+    flex-direction: column;
+    background: rgb(57, 51, 75);
+    height: 100vh;
+}
+
+
+.nav_menu >ul> li{
+margin:30px 0; 
+font-size: 24px;
+}
+
+
+.nav_menu > ul>li> a{
+    color: grey;
+}
+.nav_menu > ul>li> a:hover {
+    color: white;
+}
+
+
+.nav_menu > ul>li> a> i{
+ margin-right: 5px;
+}
+
+.profile{
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+
+}
+#profile{
+    width: 100px;
+    border-radius: 50%;
+}
+.profileinfo{
+    display: flex;
+    flex-direction: column;
+}
+.copyright{
+    margin-top: 250px;
+}

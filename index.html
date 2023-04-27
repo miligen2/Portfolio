@@ -6,20 +6,25 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/nav.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/contact.css">
+	<link rel="stylesheet" href="css/apropo.css">
+	<link rel="stylesheet" href="css/projets.css">
+	<link rel="shortcut icon" href="img/ux.png" type="image/x-icon">
 	<script src="https://kit.fontawesome.com/cc2e7283a8.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<header>
 		<div class="contain_nav">
-			<div class="profile">
-				<img id="profile" src="img/profile (1).svg"  alt="Angelo MACAIRE">
+			<div id="profile">
+				<img class="profile" src="img/profile (1).svg"  alt="Angelo MACAIRE">
 			</div>
 			
 			<div class="profileinfo text-center">
+				
 				<h2>Angelo Macaire</h2>
 			</div>
 
-			
+
 			
 			<nav class="nav_menu">
 				<ul>
@@ -60,42 +65,91 @@
 						</a>
 					</li>
 				</ul>
-				<div class="copyright text-center">
-					<p>  Copyright © Angelo Macaire.</p>
-				</div>
-			</nav>
+			<div class="copyright text-center">
+				<p>  Copyright © Angelo Macaire.</p>
+			</div>
+			</nav>				
 		</div>	
 	</header>
 	<main>
-		<section id="accueil">
+		<div class="large-header">
 			<div id="nom">
-			<h2>ANGELO MACAIRE</h2>
-			bienvenue sur mon porte folio
+				<h2>ANGELO MACAIRE</h2>
+				bienvenue sur mon porte folio
+			</div>
+		</div>
+
+
+		<section id="apropo">
+			<h2>À propos de moi 🧑</h2>
+			<div id="presentation" class="contenu flex">	
+				<div id="image">
+					<img class="profile" src="img/profile (1).svg"  alt="Angelo MACAIRE">
+				</div>
+		
+				<div id="text">
+					<h2>Présentation</h2>
+					
+					<p>Bonjour, moi c'est Angelo Macaire 👋</br></br>
+						Je suis actuellement étudiant à l'ecole ISITECH de Lyon en première année de BTS SIO (Services Informatiques aux Organisations) dans l'option SLAM (Solutions Logicielles et Application Métier).</br></br>
+						Actuellement toujours en cours d'étude 🎓, je vous propose sur ce portfolio de retrouver ci-dessous les différentes études, et projet professionnel que j'ai pu entreprendre au sein de ma carrière.</br></br>
+						Vous retrouverez ci-dessous mon CV ainsi que mes différents projets 👩‍💻</p>
+				</div>
+			</div>
+			<div class="cv">
+				<a href=""id="cv" class="text-center">
+					CV 
+				</a>
 
 			</div>
-		
-		</section>
-		<section id="competences">
-			<h2>À propos de moi</h2>
-			<p>Ici, vous pouvez écrire une brève description de vous-même, de votre formation et de vos compétences.</p>
-		</section>
-		<section id="apropo">
+	
+			
 
 
 		</section>
 		
 		<section id="projet">
-			<h2>Mes projets</h2>
-			<ul>
-				<li><a href="#">Projet 1</a></li>
-				<li><a href="#">Projet 2</a></li>
-				<li><a href="#">Projet 3</a></li>
-                <li><a href="#">Projet 3</a></li>
-			</ul>
+			<h2>Mes projets 🚧</h2>
+			<div class="contenu row">
+				<div class="card">
+					<h3>Projet n°1</h3>
+					<img id="p1"src="" alt="">
+				</div>
+				<div class="card">
+					<h3>Projet n°2</h3>
+					<img id="p2"src="" alt="">
+				</div>
+				<div class="card">
+					<h3>Projet n°3</h3>
+					<img id="p3"src="" alt="">
+				</div>
+				<div class="card">
+					<h3>Projet n°4</h3>
+					<img id="p4"src="" alt="">
+				</div>
+		</div>
+		</section>
+		<section id="veilles">
+			<h2>Veilles 📔</h2>
+			<div class="contenu">
+				<ul>
+					<li><a href="#">Projet 1</a></li>
+					<li><a href="#">Projet 2</a></li>
+					<li><a href="#">Projet 3</a></li>
+					<li><a href="#">Projet 3</a></li>
+				</ul>
+			</div>
 		</section>
 		
 		<section>
-			<h2>Contactez-moi</h2>
+			<h2>Contactez-moi ✉️</h2>
+			<div class="contenu">
+
+
+
+
+			</div>
+
 			<form>
 				<label for="name">Nom :</label>
 				<input type="text" id="name" name="name"><br><br>
@@ -110,9 +164,6 @@
 			</form>
 		</section>
 	</main>
-	
-					<footer>
-						
-					</footer>
+
 </body>
 </html>

@@ -12,7 +12,7 @@ header{
 .contain_nav{
     display:flex;
     flex-direction: column;
-    background: rgb(57, 51, 75);
+    background: #667480;
     height: 100vh;
 }
 
@@ -24,10 +24,10 @@ font-size: 24px;
 
 
 .nav_menu > ul>li> a{
-    color: grey;
+    color: white;
 }
 .nav_menu > ul>li> a:hover {
-    color: white;
+    color: blue;
 }
 
 
@@ -35,13 +35,13 @@ font-size: 24px;
  margin-right: 5px;
 }
 
-.profile{
+#profile{
     margin: 25px 0;
     display: flex;
     justify-content: center;
 
 }
-#profile{
+.profile{
     width: 100px;
     border-radius: 50%;
 }
@@ -51,4 +51,5 @@ font-size: 24px;
 }
 .copyright{
     margin-top: 250px;
+    color: white;
 }

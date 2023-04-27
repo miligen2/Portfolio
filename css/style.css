@@ -17,6 +17,10 @@
 
 
 }
+
+.contenu{
+    padding-left: 3%;
+}
 .text-center{
     text-align: center;
 }
@@ -27,29 +31,42 @@ ul{
     list-style: none;
     
 }
-main{
-    background-color: rgb(45, 39, 177);
+main{   
+    margin-left: 300px;
+    font-family: var(--fontfam);
 }
 section{
-    margin-left: 300px;
+    margin-left: 10%;
+    width: 70%;
 }
 a{
     text-decoration: none;
+}
+h1,h2,h3,h4{
+    font-family: var(--fontfamtitre);
 }
 
 
 
 
 /* main */
+
 /* acuueil */
 
-#accueil{
+.large-header {
+
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
+    background-size:cover;
+
 }
+
 #nom{
     font-family: var(--fontfamtitre);
-    font-size: 64px;
+    font-size:;
+    color: white;
 }

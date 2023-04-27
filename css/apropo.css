@@ -1,0 +1,19 @@
+#apropo{
+    margin-top: 3%;
+}
+#text{
+    padding-left: 15%;
+}
+#presentation{
+    display: flex;
+    align-items: center;
+}
+.cv{
+display:flex;
+justify-content: center;
+}
+#cv{
+    
+    width: 100px;
+    height: 40px;
+}

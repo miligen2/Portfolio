@@ -47,10 +47,6 @@ h1,h2,h3,h4{
 }
 
 
-
-
-/* main */
-
 /* acuueil */
 
 .large-header {
@@ -129,6 +125,6 @@ h1,h2,h3,h4{
 
 #nom{
     font-family: var(--fontfamtitre);
-    font-size:;
+
     color: white;
 }

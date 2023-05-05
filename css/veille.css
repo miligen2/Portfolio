@@ -1,0 +1,9 @@
+.cardV{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    border: 1px black solid;
+}
+.espaceV{
+    padding-bottom: 15px;
+}

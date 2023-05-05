@@ -1,7 +1,30 @@
 .row{
 display: flex;
-justify-content: center;
+justify-content: space-between;
+margin-bottom: 10px  ;
+
 }
-.card{
-    width: 20%;
+.card{  
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: solid 1px #667480;
+    border-radius: 25px ;
+}
+.card > h3 {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.trait{
+    border: 1px #667480 solid;
+}
+
+.card >.cardContenu >a> img{
+    margin-top: 10px;
+    width: 100%;
+}
+.card >.cardContenu > p {
+    color:black;
+    margin:  0 25px ;
 }

@@ -19,7 +19,7 @@
 }
 
 .contenu{
-    padding-left: 3%;
+    padding-left: 2.5%;
 }
 .text-center{
     text-align: center;
@@ -36,8 +36,8 @@ main{
     font-family: var(--fontfam);
 }
 section{
-    margin-left: 10%;
-    width: 70%;
+    margin-left: 6%;
+    width: 89%;
 }
 a{
     text-decoration: none;

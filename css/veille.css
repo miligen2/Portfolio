@@ -1,9 +1,27 @@
+.espaceV{ /* espacement entre le titre et les cartes */
+    padding-bottom: 15px;
+}
+
+
 .cardV{
     display: flex;
     flex-direction: column;
     width: 33%;
     border: 1px black solid;
 }
-.espaceV{
-    padding-bottom: 15px;
+
+.cardV > a {
+    text-align: center;
+    Color: rgb(110, 130, 110);
+
 }
+.cardV > a :hover{
+    color:rgb(153, 191, 153);
+}
+
+.titreV{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+

@@ -21,13 +21,13 @@ ul{
     list-style: none;
     
 }
-main{   
+main,footer{   
     margin-left: 300px;
     font-family: var(--fontfam);
 }
 section{
     margin-left: 3%;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
     width: 89%;
 }
 a{

@@ -1,3 +1,7 @@
+.imgV{
+    text-align: center;
+}
+
 .espaceV{ /* espacement entre le titre et les cartes */
     padding-bottom: 15px;
 }
@@ -6,8 +10,10 @@
 .cardV{
     display: flex;
     flex-direction: column;
-    width: 33%;
-    border: 1px black solid;
+    width: 28%;
+    padding: 2%;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .cardV > a {

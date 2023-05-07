@@ -26,7 +26,7 @@ justify-content: center;
 
 .button-border {
     display: inline-block;
-    border: 2px solid #667480;
+    border: 2px solid rgb(110, 130, 110);
     border-radius: 5px;
     padding: 5px;
   }
@@ -34,7 +34,7 @@ justify-content: center;
   .button {
     display: inline-block;
     padding: 10px 100px;
-    background-color: #667480;
+    background-color: rgb(110, 130, 110);
     color: white;
     border-radius: 5px;
     text-align: center;
@@ -45,7 +45,7 @@ justify-content: center;
   }
   
   .button:hover {
-    background-color: #57646f;
+    background-color: rgb(146, 173, 146);
 
   }
   
@@ -54,3 +54,24 @@ justify-content: center;
     vertical-align: middle;
     line-height: normal;
   }
+
+/* Competence */
+
+
+.cardCompetence{
+ 
+  border-radius: 25px;
+  width: 150px;
+  height: 150px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+.imgCompetence{
+  text-align: center;
+  margin: 15px 0;
+}
+.textCompetence{
+  text-align: center;
+}
+.competenceExperience > h4{  /* mini titre */
+  margin-left: 15px;
+}

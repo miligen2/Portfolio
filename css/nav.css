@@ -69,13 +69,15 @@ font-size: 1.30em;
 
     
 }
+/*tel*/
 @media screen and (max-width:767px){
     header{
         display: none;
+        position: ;
     }
-    main{
-        margin-left: ;
-    }
+    main {
+        
+      }
 
 
 }

@@ -51,7 +51,7 @@ h1,h2,h3,h4{
 
     margin: auto;
     overflow: auto;
-    background: linear-gradient(315deg, rgb(127, 132, 127) 3%, rgb(186, 184, 169) 38%, rgb(199, 207, 201) 68%, rgb(177, 139, 122) 98%);
+    background: linear-gradient(315deg, rgb(110, 130, 110) 3%, rgb(186, 184, 169) 38%, rgb(209, 179, 165) 68%, rgb(177, 139, 122) 98%);
     animation: gradient 13s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;

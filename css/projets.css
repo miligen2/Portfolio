@@ -8,6 +8,8 @@ margin-bottom: 10px  ;
 .card{  
     display: flex;
     flex-direction: column;
+    min-height: auto;
+    height: 100%;
     max-width: 225px;
     width: 100%;
     border-radius: 25px ;
@@ -22,7 +24,7 @@ margin-bottom: 10px  ;
 animation-name: bounce;
 
  animation-timing-function: ease;
-    animation-duration: 600ms;
+animation-duration: 600ms;
   animation-fill-mode: forwards;
 }
 .card > h4 {
@@ -33,19 +35,16 @@ animation-name: bounce;
     border: 1px #667480 solid;
 }
 
-.card >.cardContenu >a> img{
+.img{
     text-align: center;
-    width: 100%;
+    width: 100%;   
+    margin-top: 20px ;
 }
 .card >.cardContenu > p {
     color:black;
     margin:  0 25px ;
 }
-.img{
-    text-align: center;
-    margin-top: 20px ;
-    
-}
+
 #p1,#p2,#p3,#p4{
     width: 60%;
 }

@@ -116,9 +116,17 @@ h1,h2,h3,h4{
         transform: translateX(1);
     }
 }
-
-#nom{
-    font-family: var(--fontfamtitre);
-
+#ecriture{
+    display: flex;
+    flex-direction: column;
     color: white;
+    font-family: var(--fontfamtitre);
+}
+#nom{
+    font-size: 400% ;
+    text-align: center;
+}
+#desc{
+    font-size:250%;
+    text-align: center;
 }

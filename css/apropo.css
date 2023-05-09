@@ -52,7 +52,7 @@ justify-content: center;
   .button:hover {
     animation-name: allee;
     animation-timing-function: ease;
-    animation-duration: 500ms;
+    animation-duration: 200ms;
     animation-fill-mode: forwards;
     background-color: rgb(146, 173, 146);
 

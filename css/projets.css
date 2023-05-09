@@ -12,6 +12,18 @@ margin-bottom: 10px  ;
     width: 100%;
     border-radius: 25px ;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+
+    animation-name: bounce-back;
+    animation-timing-function: ease;
+    animation-duration: 600ms;
+    animation-fill-mode: forwards;
+}
+.card:hover{
+animation-name: bounce;
+
+ animation-timing-function: ease;
+    animation-duration: 600ms;
+  animation-fill-mode: forwards;
 }
 .card > h4 {
     margin-top: 10px;

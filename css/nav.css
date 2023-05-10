@@ -62,20 +62,10 @@ font-size: 1.30em;
 }
 
 /*tab*/
-@media screen and (min-width:768px) and (max-width:1023px) {
+@media (min-width:768px) and (max-width:1023px) {
     .nav_menu >ul> li{
         font-size: 1em;
     }
     
 }
 /*tel*/
-@media (max-width:767px){
-    header{
-        left:-300px;
-    }
-    main {
-        margin-left: 0 !important;
-      }
-
-
-}

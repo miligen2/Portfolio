@@ -1,0 +1,47 @@
+@media (max-width:767px){
+    header{
+        left:-300px;
+    }
+    main {
+        margin-left: 0 ;
+      }
+    #desc{
+        font-size: 150%;
+    }
+    #nom{
+        font-size: 300% ;
+       
+    }
+    #image{
+        width: 150%;
+    }
+    .cardCompetence{
+        width: auto;
+        height: auto;
+
+    }
+    .imgCompetence > svg{
+        width: 50%;
+        height: 50%;
+    }
+    .textCompetence{
+        display: none;
+    }
+    .card > h4{
+        font-size: 10pX;
+    }
+    .card{
+        width: 20%;
+    }
+    .cardContenu{
+        width: auto;
+    }
+    .cardContenu > p{
+        display: none;
+
+    }
+    .cardV{
+        height: auto;
+    }
+
+}

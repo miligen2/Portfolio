@@ -61,11 +61,3 @@ font-size: 1.30em;
     justify-content: center;
 }
 
-/*tab*/
-@media (min-width:768px) and (max-width:1023px) {
-    .nav_menu >ul> li{
-        font-size: 1em;
-    }
-    
-}
-/*tel*/

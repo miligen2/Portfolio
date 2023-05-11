@@ -1,9 +1,12 @@
 @media (min-width:768px) and (max-width:1023px) {
     header{
-        left:-300px;
+        max-width:100px;
+    }
+    .profileinfo,.profile,.likedin,.nav_menu {
+        display: none;
     }
     main {
-        margin-left: 0 ;
+        margin-left: 100px ;
     }
     #desc{
         font-size: 160%;
@@ -16,10 +19,23 @@
         width: 100%;
     }
     
-    .card{
+    #navmq{
+        display: flex;
+        flex-direction: column;
+    }
+    #navmq li {
+        margin-bottom: 11vh; 
     }
     .nav_menu >ul> li{
         font-size: 1em;
+    }
+    .cardCompetence{
+        width: 100px;
+        height: 110px;
+
+    }
+    .textCompetence{
+        display: none;
     }
 }
 
@@ -67,13 +83,21 @@
 
     .cardV{
         height: auto;
+        width: auto;
+    
     }
-    .row{
+    .row,.rowV{
         display: flex;
         flex-direction: column;
     }
+    .rowV{
+        margin: 0px 50px;
+    }
     .cardCompetence,.cardV,.card{
         margin: 14px 0px;
+    }
+    #navmq{
+        display: none;
     }
 
 }

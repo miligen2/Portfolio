@@ -33,4 +33,11 @@
     font-weight: 600;
 
 }
+.rowV{
+    display: flex;
+justify-content: space-between;
+margin-bottom: 10px  ;
+align-items: flex-start;
+
+}
 

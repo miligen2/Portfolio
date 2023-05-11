@@ -60,4 +60,6 @@ font-size: 1.30em;
     display: flex;
     justify-content: center;
 }
-
+#navmq{
+    display: none;
+}

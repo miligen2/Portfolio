@@ -38,6 +38,9 @@
 justify-content: space-between;
 margin-bottom: 10px  ;
 align-items: flex-start;
-
+}
+.source> b {
+ font-weight: 600;
+ color: rgb(110, 130, 110);
 }
 

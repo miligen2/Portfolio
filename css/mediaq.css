@@ -13,12 +13,10 @@
     }
     #nom{
         font-size: 310% ;
-       
     }
     #image{
         width: 100%;
     }
-    
     #navmq{
         display: flex;
         flex-direction: column;
@@ -38,9 +36,6 @@
         display: none;
     }
 }
-
-
-
 @media (max-width:767px){ 
     /* essayé 480px pour tel sinon c'est 767*/
     header{
@@ -62,7 +57,6 @@
     .cardCompetence{
         width: auto;
         height: auto;
-
     }
     .imgCompetence > svg{
         width: 50%;
@@ -80,11 +74,9 @@
     .cardContenu{
         width: auto;
     }
-
     .cardV{
         height: auto;
-        width: auto;
-    
+        width: auto; 
     }
     .row,.rowV{
         display: flex;
@@ -96,5 +88,4 @@
     #navmq{
         display: none;
     }
-
 }

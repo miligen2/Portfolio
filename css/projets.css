@@ -26,7 +26,7 @@ animation-name: bounce;
 animation-duration: 600ms;
   animation-fill-mode: forwards;
 }
-.card > h4 {
+.card > h3 {
     margin-top: 10px;
     text-align: center;
 }

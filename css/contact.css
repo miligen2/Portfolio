@@ -1,0 +1,19 @@
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.cardContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 50px;
+    height: 50vh;
+    width: 25vw;
+}

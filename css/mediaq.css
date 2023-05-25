@@ -1,4 +1,4 @@
-@media (min-width:768px) and (max-width:1023px) {
+@media (min-width:768px) and (max-width:1023px) { /* format tablette*/
     header{
         max-width:100px;
     }
@@ -36,7 +36,7 @@
         display: none;
     }
 }
-@media (max-width:767px){ 
+@media (max-width:767px){ /* Format télèphone */
     /* essayé 480px pour tel sinon c'est 767*/
     header{
         left:-300px;
@@ -64,9 +64,6 @@
     }
     .textCompetence{
         display: none;
-    }
-    .card > h4{
-        font-size: 10pX;
     }
     .card{
         width: auto ;

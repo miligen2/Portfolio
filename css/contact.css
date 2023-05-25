@@ -3,17 +3,30 @@
     justify-content: center;
 }
 
-
-
+.partieContact{
+    display:flex;
+}
+.titreContact{
+    padding: 0 0 0 15px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
 
 .cardContact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+    padding: 40px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 50px;
     height: 50vh;
     width: 25vw;
+}
+.rond{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 70px;
+    height: 70px;
+    border: black 1px solid;
+    border-radius: 50%;
 }

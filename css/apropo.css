@@ -123,7 +123,6 @@ justify-content: center;
   animation-duration: 600ms;
   animation-fill-mode: forwards;
   box-shadow: 5px 5px 50px 0px rgba(0, 0, 0, 0.401);
-  border:  2px solid  rgb(110, 130, 110);
 }
 
 @keyframes bounce {

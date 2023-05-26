@@ -5,20 +5,28 @@
 
 .partieContact{
     display:flex;
+    padding: 0 0 60px 0;
 }
 .titreContact{
-    padding: 0 0 0 15px;
+
     font-size: 24px;
     display: flex;
     align-items: center;
+    padding: 0 0 5px 0 ;
+}
+.infoC{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 15px;
 }
 
 .cardContact{
     padding: 40px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 50px;
-    height: 50vh;
-    width: 25vw;
+    height: auto;
+    width: auto;
 }
 .rond{
     display: flex;

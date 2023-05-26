@@ -11,6 +11,7 @@ margin-bottom: 10px;
     width: 24%;
     border-radius: 25px ;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    padding: 0 0 15px 0;
 
     animation-name: bounce-back;
     animation-timing-function: ease;
@@ -39,6 +40,7 @@ margin-bottom: 10px;
 .card >.cardContenu > p {
     color:black;
     margin:  0 25px ;
+    padding: 0 0 5px 0;
 }
 
 #p1,#p2,#p3,#p4{

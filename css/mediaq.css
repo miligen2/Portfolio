@@ -1,12 +1,12 @@
-@media (min-width:768px) and (max-width:1023px) { /* format tablette*/
+@media (min-width:768px) and (max-width:1023px) { /* format tablette    */
     header{
-        max-width:100px;
+        display: none;
     }
     .profileinfo,.profile,.likedin,.nav_menu {
         display: none;
     }
     main {
-        margin-left: 100px ;
+        margin-left: 0;
     }
     #desc{
         font-size: 160%;
@@ -84,5 +84,16 @@
     }
     #navmq{
         display: none;
+    }
+    .titreContact{
+        display: none;
+    }
+    .rond{
+        width: 40px;
+        height: 40px;
+    }
+    .iconeC{
+        width: 20px;
+        height: 20px;
     }
 }

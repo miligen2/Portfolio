@@ -7,7 +7,9 @@
     --fontfam: 'Poppins', sans-serif;
     --titlefont:32px;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .contenu{
     padding-left: 2.5%;
 }

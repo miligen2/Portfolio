@@ -91,9 +91,30 @@
     .rond{
         width: 40px;
         height: 40px;
+        border: none;
     }
     .iconeC{
         width: 20px;
         height: 20px;
+    }
+    .sea .circle-wrapper {
+        width: 150px;
+        height: 150px; 
+        padding: 0 0 0 0;
+    }
+    .sea .submarine-wrapper {
+        padding: 0px 50px 30px 150px;
+    }
+    .sea .submarine-wrapper .submarine-body{
+        margin-top: 25px;
+        left: -25px;
+    }
+    .sea .submarine-wrapper .helix{
+        margin-top: 33px;
+        left: -25px;
+    }
+    .sea .submarine-wrapper .hat{
+        margin-top: 1px;
+        left: 30px;
     }
 }

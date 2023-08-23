@@ -10,7 +10,7 @@
 .cardV{
     display: flex;
     flex-direction: column;
-    width: 28%;
+    width: 30%;
     height: auto;
     overflow-y:hidden;
 

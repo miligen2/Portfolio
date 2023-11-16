@@ -9,6 +9,7 @@
 }
 html{
     scroll-behavior: smooth;
+    cursor: url(/img/cursor/cursor.png);
 }
 .contenu{
     padding-left: 2.5%;
@@ -34,6 +35,9 @@ section{
 }
 a{
     text-decoration: none;
+}
+a:hover{
+    cursor: url(/img/cursor/cursor-pointer.png);
 }
 h1,h2,h3,h4{
     font-family: var(--fontfamtitre);

@@ -86,59 +86,5 @@ justify-content: center;
     line-height: normal;
   }
 
-/* Competence */
 
 
-.cardCompetence{
- 
-  border-radius: 25px;
-  width: 150px;
-  height: 150px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
-}
-.imgCompetence{
-  text-align: center;
-  margin: 15px 0;
-}
-.textCompetence{
-  text-align: center;
-}
-.competenceExperience > h4{  /* mini titre */
-  margin-left: 15px;
-}
-
-.cardCompetence {
-  /* animation pour l'état initial */
-  animation-name: bounce-back;
-  animation-timing-function: ease;
-  animation-duration: 600ms;
-  animation-fill-mode: forwards;
-  
-}
-
-.cardCompetence:hover {
-  /* animation pour l'état survolé */
-  animation-name: bounce;
-  animation-timing-function: ease;
-  animation-duration: 600ms;
-  animation-fill-mode: forwards;
-  box-shadow: 5px 5px 50px 0px rgba(0, 0, 0, 0.401);
-}
-
-@keyframes bounce {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-15px) translateX(0px);
-  }
-}
-
-@keyframes bounce-back {
-  0% {
-    transform: translateY(-15px) translateX(0px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}

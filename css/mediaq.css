@@ -79,6 +79,12 @@
         display: flex;
         flex-direction: column;
     }
+    .passeportDev{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .cardCompetence,.cardV,.card{
         margin: 14px 0px;
     }

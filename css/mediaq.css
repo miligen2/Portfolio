@@ -35,9 +35,11 @@
     .textCompetence{
         display: none;
     }
+    .tooltip{
+        margin-left: -100px;
+    }
 }
 @media (max-width:767px){ /* Format télèphone */
-    /* essayé 480px pour tel sinon c'est 767*/
     header{
         left:-300px;
     }
@@ -104,6 +106,9 @@
         height: 20px;
     }
     .sousmarin{
+        display: none;
+    }
+    .tooltip{
         display: none;
     }
 }

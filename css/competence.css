@@ -53,7 +53,7 @@
 
 .tooltip {
     visibility: hidden;
-    width: 350px;
+    width: 300px;
     background-color: #333;
     color: #fff;
     text-align:start;
@@ -64,7 +64,7 @@
     bottom: 125%;
     margin-left: -60px;
     opacity: 0; 
-    transition: opacity 0.3s;
+    transition: opacity 0.4s;
 }
 /* affichage de la tool box */
 .cardCompetence:hover .tooltip {
@@ -115,10 +115,23 @@
   width: 60%; 
   background-color: rgb(243, 224, 80);
 }
+.cardCompetence:hover #csharp {
+  width: 20%; 
+  background-color: #390091;
+}
+.cardCompetence:hover #java {
+  width: 25%; 
+  background-color: #e76f00;
+}
+
+.cardCompetence:hover #py {
+  width: 15%; 
+  background-color: #327EBD;
+}
 
 
 
-#ndRow{
+.ndRow{
   margin-top: 5%;
 }
 

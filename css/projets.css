@@ -18,7 +18,7 @@ margin-bottom: 10px;
     animation-duration: 600ms;
     animation-fill-mode: forwards;
 }
-.card:hover{
+.card:hover,.cardExperience:hover{
  animation-name: bounce;
  animation-timing-function: ease;
  animation-duration: 600ms;
